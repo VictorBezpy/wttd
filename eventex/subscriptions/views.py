@@ -16,10 +16,10 @@ def subscribe(request):
 
             mail.send_mail('Confirmação de inscrição',
                           body,
-                          'contato@eventex.com.br',
-                          ['contato@eventex.com.br', form.cleaned_data['email']])
+                          'victor.tbez@gmail.com',
+                          ['victor.tbez@gmail.com', form.cleaned_data['email']])
             messages.success(request, 'Inscrição realizada com sucesso!')
-
+#troquei o contato@eventex.com por victor.tbez@gmail.com, para mandar pelo Elasticemil
             return HttpResponseRedirect('/inscricao/')
         else:
             return render(request, 'subscriptions/subscription_form.html',
