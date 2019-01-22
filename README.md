@@ -1,6 +1,9 @@
 # Eventex
 
 Sistema de eventos encomendado pela Morena
+[![Build Status](https://travis-ci.org/VictorBezpy/wttd.svg?branch=master)](https://travis-ci.org/VictorBezpy/wttd)
+
+
 
 ## Como desenvolver?
 
